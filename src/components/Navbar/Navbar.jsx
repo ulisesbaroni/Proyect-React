@@ -9,9 +9,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
       <div className="container-fluid">
 
-        <a className="navbar-brand" href="#">
-          Arte y Campo
-        </a>
+        <a className="navbar-brand" href="#"><img className="logo" src="./img/logo-2.png" alt="Imagen del logo" />Arte y Campo</a>
         <button
           className="navbar-toggler"
           type="button"
