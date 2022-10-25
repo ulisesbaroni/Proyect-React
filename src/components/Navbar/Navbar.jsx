@@ -1,7 +1,6 @@
 import "./navbar.css";
 import Sections from "./Sections/Sections";
 import Dropdown from "./Dropdown/Dropdown";
-import CartWidget from "../CartWidget/CartWidget";
 import FormSearch from "../FormSearch/FormSearch";
 
 const Navbar = () => {
@@ -27,7 +26,10 @@ const Navbar = () => {
             <Dropdown />
           </ul>
 
-          <CartWidget />
+          {/* Boton carrito */} 
+          <a href="">
+          <button className="btn btn-dark disabled"><i class="fa-solid fa-cart-shopping"></i></button></a>
+        
           <FormSearch busqueda={"Buscar Productos"} />
         </div>
       </div>
