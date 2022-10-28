@@ -22,8 +22,10 @@ const Navbar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+
             <Sections />
             <Dropdown />
+            
           </ul>
 
           {/* Boton carrito */} 
