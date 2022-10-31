@@ -29,10 +29,11 @@ const Navbar = () => {
           </ul>
 
           {/* Boton carrito */} 
-          <a href="">
-          <button className="btn btn-dark disabled"><i class="fa-solid fa-cart-shopping"></i></button></a>
+        
         
           <FormSearch busqueda={"Buscar Productos"} />
+          <a href="">
+          <button className="btn btn-dark disabled btn-carrito"><i class="fa-solid fa-cart-shopping"></i></button></a>
         </div>
       </div>
     </nav>

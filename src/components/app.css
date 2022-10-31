@@ -1,5 +1,22 @@
-.titulo {
-    display: flex;
+.row {
+    margin-top: 5em;
+    display:flex;
     justify-content: center;
-    padding-top: 10em;
+}
+
+.cardProducto {
+    text-align: center;
+    width: 18rem;
+    margin: 4px;
+    margin: 2em;
+}
+
+.card-title{
+    
+    margin-bottom: 1em;
+}
+
+.btn-verProducto{
+    border-radius:1.5em;
+    
 }

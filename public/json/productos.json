@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "nombre": "Llaveros Casitas",
+        "dimensiones": "2.5cm x 2.5cm",
+        "precio": 350,
+        "stock": 30,
+        "img": "Llaveros-casitas.jpeg"
+    },
+    {
+        "id": 2,
+        "nombre": "Palilleros",
+        "dimensiones": "7cm x 10cm",
+        "precio": 450,
+        "stock": 30,
+        "img": "Palillero.jpeg"
+    },
+    {
+        "id": 3,
+        "nombre": "Porta sahumerios",
+        "dimensiones": "20cm x 5cm",
+        "precio": 550,
+        "stock": 30,
+        "img": "Porta-sahumerio-caja.jpeg"
+    },
+    {
+        "id": 4,
+        "nombre": "Porta sahumerio Casita rústica",
+        "dimensiones": "15cm x 15cm",
+        "precio": 850,
+        "stock": 30,
+        "img": "Porta-sahumerio-casa1.jpeg"
+    },
+    {
+        "id": 5,
+        "nombre": "Porta sahumerio Casita Moderna",
+        "dimensiones": "15cm x 15cm",
+        "precio": 850,
+        "stock": 30,
+        "img": "Porta-sahumerio-casa2.jpeg"
+    },
+    {
+        "id": 6,
+        "nombre": "Porta sahumerio Casita de Campo",
+        "dimensiones": "15cm x 15cm",
+        "precio": 850,
+        "stock": 30,
+        "img": "Porta-sahumerio-casa3.jpeg"
+    },
+    {
+        "id": 7,
+        "nombre": "Porta sahumerio Corralito",
+        "dimensiones": "15cm x 15cm",
+        "precio": 800,
+        "stock": 30,
+        "img": "Porta-sahumerio-corral.jpeg"
+    },
+    {
+        "id": 8,
+        "nombre": "Porta sahumerio Tronco",
+        "dimensiones": "8cm x 20cm alto",
+        "precio": 850,
+        "stock": 30,
+        "img": "Porta-sahumerio-tronco.jpeg"
+    },
+    {
+        "id": 9,
+        "nombre": "Velador blanco",
+        "dimensiones": "20cm x 20cm x 25cm alto",
+        "precio": 3500,
+        "stock": 10,
+        "img": "Velador-blanco.jpeg"
+    },
+    {
+        "id": 10,
+        "nombre": "Velador blanco",
+        "dimensiones": "25cm x 20cm x 25cm alto",
+        "precio": 3500,
+        "stock": 10,
+        "img": "Velador-celeste.jpeg"
+    }
+    
+]
