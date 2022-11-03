@@ -1,6 +1,7 @@
 [
     {
         "id": 1,
+        "idCategoria": 3,
         "nombre": "Llaveros Casitas",
         "dimensiones": "2.5cm x 2.5cm",
         "precio": 350,
@@ -9,6 +10,7 @@
     },
     {
         "id": 2,
+        "idCategoria": 3,
         "nombre": "Palilleros",
         "dimensiones": "7cm x 10cm",
         "precio": 450,
@@ -17,6 +19,7 @@
     },
     {
         "id": 3,
+        "idCategoria": 1,
         "nombre": "Porta sahumerios",
         "dimensiones": "20cm x 5cm",
         "precio": 550,
@@ -25,6 +28,7 @@
     },
     {
         "id": 4,
+        "idCategoria": 1,
         "nombre": "Porta sahumerio Casita rústica",
         "dimensiones": "15cm x 15cm",
         "precio": 850,
@@ -33,6 +37,7 @@
     },
     {
         "id": 5,
+        "idCategoria": 1,
         "nombre": "Porta sahumerio Casita Moderna",
         "dimensiones": "15cm x 15cm",
         "precio": 850,
@@ -41,6 +46,7 @@
     },
     {
         "id": 6,
+        "idCategoria": 1,
         "nombre": "Porta sahumerio Casita de Campo",
         "dimensiones": "15cm x 15cm",
         "precio": 850,
@@ -49,6 +55,7 @@
     },
     {
         "id": 7,
+        "idCategoria": 1,
         "nombre": "Porta sahumerio Corralito",
         "dimensiones": "15cm x 15cm",
         "precio": 800,
@@ -57,6 +64,7 @@
     },
     {
         "id": 8,
+        "idCategoria": 1,
         "nombre": "Porta sahumerio Tronco",
         "dimensiones": "8cm x 20cm alto",
         "precio": 850,
@@ -65,6 +73,7 @@
     },
     {
         "id": 9,
+        "idCategoria": 2,
         "nombre": "Velador blanco",
         "dimensiones": "20cm x 20cm x 25cm alto",
         "precio": 3500,
@@ -73,6 +82,7 @@
     },
     {
         "id": 10,
+        "idCategoria": 2,
         "nombre": "Velador blanco",
         "dimensiones": "25cm x 20cm x 25cm alto",
         "precio": 3500,

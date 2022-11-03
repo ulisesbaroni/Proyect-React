@@ -1,4 +1,4 @@
-.row {
+.HomeProd {
     margin-top: 5em;
     display:flex;
     justify-content: center;
@@ -7,7 +7,6 @@
 .cardProducto {
     text-align: center;
     width: 18rem;
-    margin: 4px;
     margin: 2em;
 }
 
@@ -20,3 +19,4 @@
     border-radius:1.5em;
     
 }
+
