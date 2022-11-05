@@ -1,3 +1,4 @@
+import "./ItemDetailContainer.css";
 import {useState, useEffect} from 'react';
 import {useParams} from 'react-router-dom';
 import ItemDetail from '../ItemDetail/ItemDetail';
@@ -16,7 +17,7 @@ const ItemDetailContainer = () => {
 
     return (
         <div>
-            <div className="card mb-3 container detalleProducto">
+            <div className="card mb-3 container shadow p-3 mb-5 bg-body rounded detalleProducto">
                 <ItemDetail producto={producto}/>
             </div>
         </div>

@@ -1,39 +1,27 @@
-
+import { Link } from "react-router-dom";
 
 const Dropdown = () => {
     return (
         
             <li className="nav-item dropdown">
-              <a
+              <Link
                 className="nav-link dropdown-toggle"
-                href="#"
                 id="navbarDropdown"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Nosotros
-              </a>
+                Productos
+              </Link>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li>
-                  <a className="dropdown-item" href="#">
-                    Nuestra Historia
-                  </a>
+                <li>
+                  <Link className="dropdown-item" to='/category/porta-sahumerios'>Porta sahumerios</Link>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#">
-                    Contactos
-                  </a>
+                  <Link className="dropdown-item" to='/category/veladores'>Veladores</Link>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#">
-                    Redes
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Ubicación
-                  </a>
+                  <Link className="dropdown-item" to='/category/varios'>Varios</Link>
                 </li>
               </ul>
             </li>

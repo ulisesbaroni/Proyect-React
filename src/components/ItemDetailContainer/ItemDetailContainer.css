@@ -1,0 +1,28 @@
+.detalleProducto{
+    max-width: 950px;
+    margin-top: 10em;
+}
+
+/* Contador */
+.counter {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.counter .less{
+    border-radius: 20px;
+    margin-right: 15px;
+    
+}
+
+.counter .plus{
+    border-radius: 20px;
+    margin-left: 15px;
+}
+/* Fin contador */
+
+/* Botón agregar al carrito */
+.btn-agregarCarrito{
+    border-radius: 1.5em;
+}
+/* Fin botón agregar al carrito */

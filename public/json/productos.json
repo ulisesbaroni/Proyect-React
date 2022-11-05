@@ -1,79 +1,79 @@
 [
     {
         "id": 1,
-        "idCategoria": 3,
+        "category": "varios",
         "nombre": "Llaveros Casitas",
-        "dimensiones": "2.5cm x 2.5cm",
+        "dimensiones": "2.5cm x 3cm x 5cm alto",
         "precio": 350,
         "stock": 30,
         "img": "Llaveros-casitas.jpeg"
     },
     {
         "id": 2,
-        "idCategoria": 3,
+        "category": "varios",
         "nombre": "Palilleros",
-        "dimensiones": "7cm x 10cm",
+        "dimensiones": "7cm x 10cm x 10cm alto",
         "precio": 450,
         "stock": 30,
         "img": "Palillero.jpeg"
     },
     {
         "id": 3,
-        "idCategoria": 1,
-        "nombre": "Porta sahumerios",
-        "dimensiones": "20cm x 5cm",
+        "category": "porta-sahumerios",
+        "nombre":"Porta sahumerios horizontal",
+        "dimensiones": "20cm x 5cm x 5cm alto",
         "precio": 550,
         "stock": 30,
         "img": "Porta-sahumerio-caja.jpeg"
     },
     {
         "id": 4,
-        "idCategoria": 1,
+        "category": "porta-sahumerios",
         "nombre": "Porta sahumerio Casita rústica",
-        "dimensiones": "15cm x 15cm",
+        "dimensiones": "15cm x 15cm x 12cm alto",
         "precio": 850,
         "stock": 30,
         "img": "Porta-sahumerio-casa1.jpeg"
     },
     {
         "id": 5,
-        "idCategoria": 1,
+        "category": "porta-sahumerios",
         "nombre": "Porta sahumerio Casita Moderna",
-        "dimensiones": "15cm x 15cm",
+        "dimensiones": "15cm x 15cm x 15cm alto",
         "precio": 850,
         "stock": 30,
         "img": "Porta-sahumerio-casa2.jpeg"
     },
     {
         "id": 6,
-        "idCategoria": 1,
+        "category": "porta-sahumerios",
         "nombre": "Porta sahumerio Casita de Campo",
-        "dimensiones": "15cm x 15cm",
+        "dimensiones": "15cm x 15cm x 10cm alto",
         "precio": 850,
         "stock": 30,
         "img": "Porta-sahumerio-casa3.jpeg"
     },
     {
         "id": 7,
-        "idCategoria": 1,
+        "category": "porta-sahumerios",
         "nombre": "Porta sahumerio Corralito",
-        "dimensiones": "15cm x 15cm",
+        "dimensiones": "15cm x 15cm x 10cm alto",
         "precio": 800,
         "stock": 30,
         "img": "Porta-sahumerio-corral.jpeg"
     },
     {
         "id": 8,
-        "idCategoria": 1,
+        "category": "porta-sahumerios",
         "nombre": "Porta sahumerio Tronco",
-        "dimensiones": "8cm x 20cm alto",
+        "dimensiones": "8cm x 8cm x 20cm alto",
         "precio": 850,
         "stock": 30,
         "img": "Porta-sahumerio-tronco.jpeg"
     },
     {
         "id": 9,
-        "idCategoria": 2,
+        "category": "veladores",
         "nombre": "Velador blanco",
         "dimensiones": "20cm x 20cm x 25cm alto",
         "precio": 3500,
@@ -82,7 +82,7 @@
     },
     {
         "id": 10,
-        "idCategoria": 2,
+        "category": "veladores",
         "nombre": "Velador blanco",
         "dimensiones": "25cm x 20cm x 25cm alto",
         "precio": 3500,

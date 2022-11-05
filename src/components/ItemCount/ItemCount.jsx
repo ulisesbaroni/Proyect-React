@@ -1,24 +1,27 @@
 import {useState} from 'react';
 
-const Contador = () => {
-    const [contador, setContador] = useState(1)
+const Counter = () => {
+    const [counter, setCounter] = useState(1)
 
     const modifContador = (operacion) => {
         if(operacion === '+') {
-            if(contador < 10)
-            setContador(contador + 1)
+            if(counter < 10)
+            setCounter(counter + 1)
         }else {
-            if(contador > 1)
-            setContador(contador - 1)
+            if(counter > 1)
+            setCounter(counter - 1)
         }
     }
     return (
         <>
-         <button onClick={() => modifContador('+')} className='btn btn-dark'>+</button>   
-         {contador}
-         <button onClick={() => modifContador('-')} className='btn btn-light'>-</button>   
-        </>
+        <div className="counter">
+         <button onClick={() => modifContador('-')} className='btn btn-outline-dark less'>-</button>   
+         {counter}
+         <button onClick={() => modifContador('+')} className='btn btn-outline-dark plus'>+</button>   
+         </div>
+         </>
+        
     );
 }
 
-export default Contador;
+export default Counter;

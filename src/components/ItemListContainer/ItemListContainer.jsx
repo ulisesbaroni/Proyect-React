@@ -12,7 +12,7 @@ const ItemListContainer = () => {
     useEffect(() => {
         if(category) {
             consultarBDD('../json/productos.json').then(products => {
-                const productsList= products.filter(prod => prod.idCategoria === parseInt(category))
+                const productsList= products.filter(prod => prod.category === category)
                 console.log(productsList)
                 const cardProductos = ItemList({productsList})
                 setProductos(cardProductos)

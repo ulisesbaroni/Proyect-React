@@ -1,9 +1,10 @@
 import React from 'react';
+import Counter from '../ItemCount/ItemCount';
 
 const ItemDetail = ({producto}) => {
 
     return (
-        <div className='row g-0'>
+        <div className='row g-0 card-detail'>
             <div className="col-md-4">
                 <img src={`../img/${producto.img}`} className="img-fluid rounded-start" />
             </div>
@@ -13,7 +14,8 @@ const ItemDetail = ({producto}) => {
                     <p className='card-text'>Dimensiones: {producto.dimensiones}</p>
                     <p className='card-text'>Precio: ${producto.precio}</p>
                     <p className='card-text'>Stock: {producto.stock}</p>
-                    <button className="btn btn-dark">Agregar al carrito</button>
+                    <Counter/>
+                    <button className="btn btn-dark btn-agregarCarrito">Agregar al carrito</button>
                 </div>
             </div>
         </div>
