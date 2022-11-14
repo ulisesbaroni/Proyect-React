@@ -1,7 +1,18 @@
-import React from 'react';
+import {useContext} from 'react';
+import { Link } from 'react-router-dom';
 import Counter from '../ItemCount/ItemCount';
+import { CartContext } from "../../context/CartContext";
 
 const ItemDetail = ({producto}) => {
+
+    const {cart, isInCart, addItem} = useContext(CartContext)
+
+    const onAdd = (counter) => {
+        console.log(producto)
+        console.log(counter)
+
+        addItem(producto, counter)
+    }
 
     return (
         <div className='row g-0 card-detail'>
@@ -14,9 +25,9 @@ const ItemDetail = ({producto}) => {
                     <p className='card-text'>Dimensiones: {producto.dimensiones}</p>
                     <p className='card-text'>Precio: ${producto.precio}</p>
                     <p className='card-text'>Stock: {producto.stock}</p>
-                    <Counter/>
-                    <button className="btn btn-dark btn-agregarCarrito">Agregar al carrito</button>
+                    <Counter stock = {producto.stock} onAdd={onAdd}/>
                 </div>
+                <button className="btn btn-dark btn-finish"><Link to="/cart" className="nav-link">Finalizar compra</Link></button>
             </div>
         </div>
     );

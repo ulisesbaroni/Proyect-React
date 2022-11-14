@@ -24,5 +24,11 @@
 /* Botón agregar al carrito */
 .btn-agregarCarrito{
     border-radius: 1.5em;
+    margin-left: 1em;
 }
 /* Fin botón agregar al carrito */
+
+.btn-finish{
+    border-radius: 1.5em;
+    margin-left: 15px;
+}

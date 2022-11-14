@@ -1,4 +1,4 @@
-import {useState, useEffect} from 'react';
+import {useState, useEffect, useContext} from 'react';
 import ItemList from '../ItemList/ItemList.jsx';
 import {consultarBDD} from '../../assets/funciones.js'
 import { useParams } from 'react-router-dom';
@@ -13,7 +13,6 @@ const ItemListContainer = () => {
         if(category) {
             consultarBDD('../json/productos.json').then(products => {
                 const productsList= products.filter(prod => prod.category === category)
-                console.log(productsList)
                 const cardProductos = ItemList({productsList})
                 setProductos(cardProductos)
             })

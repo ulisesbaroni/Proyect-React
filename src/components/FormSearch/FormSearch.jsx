@@ -7,7 +7,7 @@ const FormSearch = ({busqueda}) => {
         placeholder={busqueda}
         aria-label="Search"
       />
-      <button className="btn btn-secondary my-2 my-sm-0" type="submit">
+      <button className="btn btn-secondary my-2 my-sm-0 btn-search" type="submit">
         Buscar
       </button>
     </form>

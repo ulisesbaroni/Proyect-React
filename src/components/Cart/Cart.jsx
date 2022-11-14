@@ -1,9 +1,9 @@
-
+import Checkout from '../Checkout/Checkout'
 
 const cart = () => {
     return (
         <div>
-            <h1>Carrito</h1>
+            <Checkout/>
         </div>
     );
 }

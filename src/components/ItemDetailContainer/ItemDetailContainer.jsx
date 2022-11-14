@@ -1,5 +1,5 @@
 import "./ItemDetailContainer.css";
-import {useState, useEffect} from 'react';
+import {useState, useEffect, useContext} from 'react';
 import {useParams} from 'react-router-dom';
 import ItemDetail from '../ItemDetail/ItemDetail';
 import { consultarBDD } from '../../assets/funciones';

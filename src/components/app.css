@@ -8,6 +8,11 @@
     text-align: center;
     width: 18rem;
     margin: 2em;
+    
+}
+
+.card-img-top{
+    border-radius: 10px;
 }
 
 .card-title{
