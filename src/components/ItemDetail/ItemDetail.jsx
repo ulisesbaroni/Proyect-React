@@ -17,7 +17,7 @@ const ItemDetail = ({producto}) => {
     return (
         <div className='row g-0 card-detail'>
             <div className="col-md-4">
-                <img src={`../img/${producto.img}`} className="img-fluid rounded-start" />
+                <img src={producto.img} className="img-fluid rounded-start" />
             </div>
             <div className="col-md-8" style={{maxWidth: '540px'}}>
                 <div className="card-body">
@@ -27,7 +27,8 @@ const ItemDetail = ({producto}) => {
                     <p className='card-text'>Stock: {producto.stock}</p>
                     <Counter stock = {producto.stock} onAdd={onAdd}/>
                 </div>
-                <button className="btn btn-dark btn-finish"><Link to="/cart" className="nav-link">Finalizar compra</Link></button>
+                <button className="btn btn-outline-primary btn-continuar"><Link to="/" className="nav-link">Seguir comprando</Link></button>
+                <button className="btn btn-outline-info btn-continuar"><Link to="/cart" className="nav-link">Ir al carrito</Link></button>
             </div>
         </div>
     );

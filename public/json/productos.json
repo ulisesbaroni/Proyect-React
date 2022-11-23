@@ -6,7 +6,7 @@
         "dimensiones": "2.5cm x 3cm x 5cm alto",
         "precio": 350,
         "stock": 30,
-        "img": "Llaveros-casitas.jpeg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-js-33f86.appspot.com/o/Llaveros-casitas.jpeg?alt=media&token=6fd7741e-b127-4bce-a718-818f50924d1e"
     },
     {
         "id": 2,
@@ -15,7 +15,7 @@
         "dimensiones": "7cm x 10cm x 10cm alto",
         "precio": 450,
         "stock": 30,
-        "img": "Palillero.jpeg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-js-33f86.appspot.com/o/Palillero.jpeg?alt=media&token=03932774-74a1-4e44-a36c-4be61b35a208"
     },
     {
         "id": 3,
@@ -24,7 +24,7 @@
         "dimensiones": "20cm x 5cm x 5cm alto",
         "precio": 550,
         "stock": 30,
-        "img": "Porta-sahumerio-caja.jpeg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-js-33f86.appspot.com/o/Porta-sahumerio-caja.jpeg?alt=media&token=3ff55a08-933c-4a43-aca5-6f4ceb00f0f6"
     },
     {
         "id": 4,
@@ -33,7 +33,7 @@
         "dimensiones": "15cm x 15cm x 12cm alto",
         "precio": 850,
         "stock": 30,
-        "img": "Porta-sahumerio-casa1.jpeg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-js-33f86.appspot.com/o/Porta-sahumerio-casa1.jpeg?alt=media&token=36b0ed3a-ffb7-4e0a-8ddd-4d65b2b44ad4"
     },
     {
         "id": 5,
@@ -42,7 +42,7 @@
         "dimensiones": "15cm x 15cm x 15cm alto",
         "precio": 850,
         "stock": 30,
-        "img": "Porta-sahumerio-casa2.jpeg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-js-33f86.appspot.com/o/Porta-sahumerio-casa2.jpeg?alt=media&token=f7c77eb0-c9f1-4434-9f20-1bd557a421e7"
     },
     {
         "id": 6,
@@ -51,7 +51,7 @@
         "dimensiones": "15cm x 15cm x 10cm alto",
         "precio": 850,
         "stock": 30,
-        "img": "Porta-sahumerio-casa3.jpeg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-js-33f86.appspot.com/o/Porta-sahumerio-casa3.jpeg?alt=media&token=50f9a19c-32d9-425c-a437-b79459ce403e"
     },
     {
         "id": 7,
@@ -60,7 +60,7 @@
         "dimensiones": "15cm x 15cm x 10cm alto",
         "precio": 800,
         "stock": 30,
-        "img": "Porta-sahumerio-corral.jpeg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-js-33f86.appspot.com/o/Porta-sahumerio-corral.jpeg?alt=media&token=ae0ec7b0-2d72-443c-8a25-fb0f2b4b6448"
     },
     {
         "id": 8,
@@ -69,7 +69,7 @@
         "dimensiones": "8cm x 8cm x 20cm alto",
         "precio": 850,
         "stock": 30,
-        "img": "Porta-sahumerio-tronco.jpeg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-js-33f86.appspot.com/o/Porta-sahumerio-tronco.jpeg?alt=media&token=5920271e-c499-4c1f-a728-49eaf74e3396"
     },
     {
         "id": 9,
@@ -78,7 +78,7 @@
         "dimensiones": "20cm x 20cm x 25cm alto",
         "precio": 3500,
         "stock": 10,
-        "img": "Velador-blanco.jpeg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-js-33f86.appspot.com/o/Velador-blanco.jpeg?alt=media&token=02ffb186-8189-4452-b7bc-c2233db383da"
     },
     {
         "id": 10,
@@ -87,7 +87,7 @@
         "dimensiones": "25cm x 20cm x 25cm alto",
         "precio": 3500,
         "stock": 10,
-        "img": "Velador-celeste.jpeg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-js-33f86.appspot.com/o/Velador-celeste.jpeg?alt=media&token=908365cc-5231-43ac-bbef-6573104e5b41"
     }
     
 ]

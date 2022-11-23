@@ -33,6 +33,10 @@
     justify-content: center;
 }
 
+.btn.disabled{
+    opacity: 0.9;
+}
+
 .btn-carrito {
     border-radius: 1em;
     margin-left: 1em;
@@ -40,6 +44,11 @@
     flex-direction: column;
     justify-content: center;
     
+}
+
+.btn-carrito span{
+    margin-left: 3px;
+    color: whitesmoke;
 }
 
 .nav-item{

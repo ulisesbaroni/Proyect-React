@@ -1,0 +1,29 @@
+.render-cart{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.items-cart{
+    display:inline-block;
+    text-align: center;
+    justify-content:center;
+
+}
+
+.card-cart{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-vaciar{
+    border-radius: 1.5em;
+    margin-left: 15px;
+    padding: 8px 15px 8px 15px;
+}
+
+.img-vaciar{
+    padding-right: 10px;
+}

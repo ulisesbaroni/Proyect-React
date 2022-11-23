@@ -10,7 +10,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
       <div className="container-fluid">
 
-        <Link className="navbar-brand" to="/"><img className="logo" src="../img/logo-2.png" alt="Imagen del logo" />Arte y Campo</Link>
+        <Link className="navbar-brand" to="/"><img className="logo" src="https://firebasestorage.googleapis.com/v0/b/react-js-33f86.appspot.com/o/logo-2.png?alt=media&token=f2d86e69-59d9-488b-92d7-4c873497bed5" alt="Imagen del logo" />Arte y Campo</Link>
       
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
