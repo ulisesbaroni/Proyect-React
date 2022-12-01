@@ -1,6 +1,6 @@
-import {useState, useEffect, useContext} from 'react';
+import {useState, useEffect} from 'react';
 import ItemList from '../ItemList/ItemList.jsx';
-import {consultarBDD} from '../../assets/funciones.js'
+import { getProductos } from '../../assets/firebase';
 import { useParams } from 'react-router-dom';
 
 const ItemListContainer = () => {
@@ -11,13 +11,13 @@ const ItemListContainer = () => {
 
     useEffect(() => {
         if(category) {
-            consultarBDD('../json/productos.json').then(products => {
+            getProductos().then(products => {
                 const productsList= products.filter(prod => prod.category === category)
                 const cardProductos = ItemList({productsList})
                 setProductos(cardProductos)
             })
         } else {
-            consultarBDD('./json/productos.json').then(productsList => {
+            getProductos().then(productsList => {
                 const cardProductos = ItemList({productsList})
                 setProductos(cardProductos)
             })
@@ -25,7 +25,7 @@ const ItemListContainer = () => {
         
     },[category]);
     
-    
+
 
     return (
         

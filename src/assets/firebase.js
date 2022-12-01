@@ -14,14 +14,14 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 
-const db = getFirestore()
+const dataBase = getFirestore()
 
 const cargarBDD = async () => {
     const promise = await fetch('./json/productos.json')
     const productos = await promise.json()
     productos.forEach(async (prod) => {
-        await addDoc(collection(db, "productos"), {
-            categoria: prod.category,
+        await addDoc(collection(dataBase, "productos"), {
+            category: prod.category,
             nombre: prod.nombre,
             dimensiones: prod.dimensiones,
             precio: prod.precio,
@@ -32,10 +32,41 @@ const cargarBDD = async () => {
 }
 
 const getProductos = async() => {
-  const productos = await getDocs(collection(db, "productos"))
+  const productos = await getDocs(collection(dataBase, "productos"))
   const items = productos.docs.map(prod => {return {...prod.data(), id: prod.id}})
   return items
 }
 
-export {cargarBDD, getProductos}
+
+const getProduct = async (id) =>{
+  const product = await getDoc(doc(dataBase,"productos",id))
+  let item 
+  if (product.data()){
+    item = {...product.data(), id: product.id}
+  }else{
+      item = 0
+  }
+  return item
+}
+
+const createTicket = async (client, total, date) =>{
+  const ticket = await addDoc(collection(dataBase, "OrdenDeCompra"),{
+      fecha: date,
+      nombre: client.nombre,
+      Email: client.email,
+      dni: client.dni,
+      tel: client.tel,
+      precioTotal: total
+  })
+  return ticket
+}
+
+const getTicket = async (id) =>{
+  const item = await getDoc(doc(dataBase, "OrdenDeCompra", id))
+  const ticket = {...item.data(), id:item.id}
+  return ticket
+
+}
+
+export {cargarBDD, getProductos, getProduct, createTicket, getTicket}
 

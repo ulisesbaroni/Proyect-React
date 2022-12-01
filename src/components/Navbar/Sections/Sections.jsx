@@ -7,11 +7,6 @@ const Sections = () => {
                 Home
               </Link>
             </li>
-            {/* <li className="nav-item">
-              <Link className="nav-link" to="/">
-                Productos
-              </Link>
-            </li> */}
         </>
     );
 }

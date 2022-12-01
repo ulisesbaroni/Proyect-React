@@ -1,14 +1,19 @@
+body{
+    background-color: #484349;
+}
+
 .HomeProd {
-    margin-top: 5em;
+    padding-top: 5em;
     display:flex;
     justify-content: center;
+    background-color:#484349;
 }
 
 .cardProducto {
     text-align: center;
     width: 18rem;
     margin: 2em;
-    
+    background-color: #F7F0F0 !important;
 }
 
 .card-img-top{

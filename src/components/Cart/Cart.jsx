@@ -39,7 +39,7 @@ const Cart = () => {
                 <div>
                    <p>Total: ${totalPrice()}</p>
                    <button className="btn btn-danger btn-vaciar" onClick={emptyCart}><img className="img-vaciar" src="https://firebasestorage.googleapis.com/v0/b/react-js-33f86.appspot.com/o/vaciar.png?alt=media&token=7601398a-6da0-4589-b131-fb93d9f4782d" alt="icono de eliminar carrito" />Vaciar Carrito</button>
-                   <button className="btn btn-dark btn-finish"><Link to="/Checkout" className="nav-link">Finalizar compra</Link></button>
+                   <button className="btn btn-dark btn-finish"><Link to="/Checkout" className="nav-link">Ir a finalizar compra</Link></button>
                 </div>
               </div>
             </div>
