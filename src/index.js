@@ -4,7 +4,7 @@ import './index.css';
 import App from './components/App';
 //import './assets/test.js'
 
-import AppClock from './components/Clock/Clock';
+/* import AppClock from './components/Clock/Clock'; */
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

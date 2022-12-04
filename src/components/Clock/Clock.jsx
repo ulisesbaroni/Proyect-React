@@ -1,4 +1,4 @@
-import * as React from "https://cdn.skypack.dev/react@18.2.0";
+/* import * as React from "https://cdn.skypack.dev/react@18.2.0";
 import * as ReactDOM from "https://cdn.skypack.dev/react-dom@18.2.0";
 
 const AppClock = () => (
@@ -51,4 +51,4 @@ const Timer = ({ deadline = new Date().toString() }) => {
 };
 ReactDOM.render(<AppClock />, document.getElementById("clock-root"));
 
-
+ */
