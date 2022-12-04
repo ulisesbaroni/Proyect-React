@@ -33,6 +33,8 @@
     justify-content: center;
 }
 
+
+/* Botón carrito */
 .btn.disabled{
     opacity: 0.9;
 }
@@ -54,4 +56,5 @@
 .nav-item{
     margin-right: 3px;
 }
+/* Fin botón carrito */
 

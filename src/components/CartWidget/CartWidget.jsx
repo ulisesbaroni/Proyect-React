@@ -10,7 +10,7 @@ const CartWidget = () => {
             <ul className='navbar-nav me-auto'>
                 <li className="nav-item">
                     <Link className="nav-link" to="/cart">
-                    <button className="btn btn-dark disabled btn-carrito"><i class="fa-solid fa-cart-shopping"></i><span>{getItemQuantity()}</span></button>
+                    <button className="btn btn-dark disabled btn-carrito" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-cart-shopping"></i><span> { getItemQuantity() >= 1 && <span>{getItemQuantity()}</span>}</span></button>
                     </Link>
                 </li>
             </ul>

@@ -20,7 +20,7 @@ const Navbar = () => {
             <Dropdown />
 
           </ul>
-          <FormSearch busqueda={"Buscar Productos"} />
+          <FormSearch busqueda={"(En construcción)"} />
           
         </div>
           <CartWidget/>

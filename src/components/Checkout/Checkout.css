@@ -1,0 +1,27 @@
+.form{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 3em;
+    
+}
+
+.btn-finalizar-compra{
+    display: block;
+    justify-content: center;
+    text-align: center;
+   
+    
+}
+
+.btn-finalizar-compra button{
+    border-radius: 1.5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.form span{
+    text-align: center;
+    display: block;
+    max-width: 291px;
+}

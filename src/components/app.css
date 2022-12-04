@@ -2,6 +2,8 @@ body{
     background-color: #484349;
 }
 
+
+/* Estilos de tarjetas de los prodcutos en el inicio */
 .HomeProd {
     padding-top: 5em;
     display:flex;

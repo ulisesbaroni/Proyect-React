@@ -1,3 +1,26 @@
+.emptytCart{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    background-color: white;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 2em;
+    padding-top: 2em;
+    padding-bottom:2em;
+}
+
+.subtitle{
+    padding: 1em;
+    text-align: center;
+}
+
+.btn-descubrir{
+    border-radius: 1.5em;
+}
+
 .render-cart{
     display: flex;
     justify-content: center;

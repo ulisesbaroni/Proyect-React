@@ -29,12 +29,16 @@
 }
 /* Fin botón agregar al carrito */
 
+/* Botón continuar comprando */
 .btn-continuar{
     border-radius: 1.5em;
     margin-left: 15px;
 }
+/* Fin botón continuar comprando */
 
+/* Botón ir a finalizar compra */
 .btn-finish{
     border-radius: 1.5em;
     margin-left: 15px;
 }
+/* Fin botón ir a finalizar compra */

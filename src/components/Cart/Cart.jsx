@@ -9,9 +9,10 @@ const Cart = () => {
     return (
         <>
             {cart.length === 0 ? 
-            <div>
-                <p>Tu carrito esta vacio</p>
-                <Link to={'/'}><button className="btn btn-dark">Ir al inicio</button></Link>
+            <div className="emptytCart">
+                <p className="display-6"><em>No hay productos en tu carrito</em></p>
+                <p className="subtitle">Todos nuestros productos son totalmente  únicos, descubrilos y elegí los que mas te gusten!</p>
+                <Link to={'/'}><button className="btn btn-outline-primary btn-descubrir">Descrubrir productos</button></Link>
             </div> 
             : 
             <div className="render-cart shadow p-3 mb-5 bg-body rounded" >

@@ -1,4 +1,5 @@
 import './app.css';
+import 'react-toastify/dist/ReactToastify.css';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 //Context
@@ -10,6 +11,9 @@ import ItemListContainer from './ItemListContainer/ItemListContainer';
 import ItemDetailContainer from './ItemDetailContainer/ItemDetailContainer';
 import Cart from './Cart/Cart';
 import Checkout from './Checkout/Checkout'
+import Error404 from './Error-404/Error-404';
+import { ToastContainer } from 'react-toastify';
+
 
 
 const App = () => {
@@ -27,7 +31,9 @@ const App = () => {
             <Route path='/cart' element={<Cart/>}/>
             <Route path='/category/:category' element={<ItemListContainer/>}/>
             <Route path='/checkout' element={<Checkout/>}></Route>
+            <Route path='*' element={<Error404/>}/>
         </Routes>
+        <ToastContainer/>
     </CartContextProvider>
 
     </BrowserRouter>
